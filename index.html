@@ -57,15 +57,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>語言</b></p>
           <p>中文</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%">100%</div>
           </div>
           <p>英文</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:65%"></div>
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:65%">65%</div>
           </div>
           <p>日文</p>
           <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:55%">55%(日文檢定n2)</div>
           </div>
           <br>
         </div>
@@ -80,8 +80,23 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>專案成果</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>運用深度攝影機之動作準確度分析系統</b></h5>
-          <p>運用深度攝影機kinect對全身12個點做動作捕捉與錄製，除了能夠錄製使用者動作之外，更能進行動作的撥放，也能夠以該資料與使用者動作比對，得到動作的相似度與正確度數值。</p>
+          <h1 class="w3-opacity"><b>運用深度攝影機之動作準確度分析系統</b></h1>
+            <ul><font size="5">
+              <li>開發軟體:unity</li>
+              <li>使用硬體:kinect深度攝影機</li>
+              <li>程式類型:單機運用</li>
+              <li>開發目的:</li>
+	        <ul><font size="4">
+		  <li></li>
+              <li>程式重點:</li>
+	        <ul><font size="4">
+	          <li>1.運用kinect的unity sdk並將其簡化，可以捕捉並記錄全身11個關節點的動作。</li>
+		  <li>2.紀錄下來的資料將以標準形式儲存於電腦，可在不同電腦間傳遞跟使用。</li>
+                  <li>3.儲存之資料可以提取並匯入程式中，並以該資料操縱模型進行動作重現。</li>
+                  <li>4.可在偵測動作同時與儲存之範例資料做準確性比對，通過數學計算得出各關節之差異值，並在最後顯示數值之總和與趨勢圖。</li>
+                  <li>5.為了身高與體型差距並不會對資料比對進行影響，本程式捕捉之數值為各關節之旋轉值，在不影響準確度下取得成果。</li>
+	        <ul></font>
+             </ul></font>
           <img src="XS6XFp8.png" style="width:100%" alt="Avatar">
           <img src="gvDgvyP.png" style="width:100%" alt="Avatar">
 
